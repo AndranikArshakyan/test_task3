@@ -1,0 +1,31 @@
+.popup {
+  width: 400px;
+  height: 400px;
+  background-color: $white;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.popup:target {
+  display: flex;
+}
+
+.popup__text {
+  font-size: 53px;
+}
+
+.popup__close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: $white;
+  background-color: $blue;
+}

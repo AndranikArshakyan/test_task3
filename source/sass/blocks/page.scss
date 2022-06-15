@@ -1,0 +1,14 @@
+.page {
+  height: 100%;
+}
+
+.page__body {
+  margin: 0;
+  padding: 0 15px;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: $green-200;
+  min-width: 600px;
+  font-family: "Roboto", sans-serif;
+}
